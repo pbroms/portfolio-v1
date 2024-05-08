@@ -17,6 +17,7 @@ a:active{
 
 a:hover{
     text-decoration: underline;
+    color: #d66a49
 }
 
 /*-----------------------------------HOMEPAGE-----------------------------------*/
@@ -31,9 +32,8 @@ a:hover{
     gap: 10px;
     width: 100%;
     height: 160px;
-    /*border-color: black;
-    border-style: solid;
-    border-radius: 10px;*/
+    border-bottom: 1px solid #707070;
+
 }
 
 .header-title{
@@ -63,6 +63,7 @@ a:hover{
     border-style: solid;
     border-radius: 10px;*/
     flex-grow: 0;
+    flex-shrink: 3;
     justify-content: space-evenly;
 }
 
@@ -84,6 +85,7 @@ a:hover{
     transition: 400ms ease-in-out;
     
 }
+
 
 .film-scoring-exercises-container{
     flex-direction: column;
@@ -295,7 +297,13 @@ a:hover{
 }
 
 
-#music,
+#music{
+    height: 100%;
+    color: #707070;
+    padding-top: .55rem;
+
+}
+
 #film-scoring-exercises{
     height: 100%;
     color: #707070;
@@ -326,13 +334,28 @@ a:hover{
     font-size: 15px;
 }
 
-.musicplayer-container{
-    border: 1px solid #707070;
-    border-radius: 3px;
-    height: 1000px;
+.musicdescriptor{
+    /*border: 1px dashed #707070;
+    border-radius: 3px;*/
+    height: 150px;
+
 }
 
+.musicplayer-container{
+    /*border: 1px dashed #707070;
+    border-radius: 3px;*/
+    height: 150px;
+}
 
+.player{
+    max-width: auto;
+    margin: 0 auto;
+    width:715px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+}
 
 /*-----------------------------------FILMSCORING-----------------------------------*/
 
@@ -340,6 +363,29 @@ a:hover{
     margin-left: 200px;
     font-size: 15px;
 }
+
+.videodescriptor{
+    /*border: 1px dashed #707070;
+    border-radius: 3px;*/
+    border: none;
+    height: 250px;
+    line-height: 20px;
+
+}
+
+.videoplayer-container{
+    /*border: 1px dashed #707070;
+    border-radius: 3px;*/
+    border: none;
+    height: 400px;
+}
+
+.video{
+    width: 100%;
+    height: 100%;
+
+}
+
 
 /*-----------------------------------PHOTOGRAPHY-----------------------------------*/
 
@@ -425,6 +471,7 @@ a:hover{
     top: 28px;
     left: 28px;
     padding: 10px 10px;
+    margin-bottom: 10px;
     background-color: #70707000;
     color: #707070;
     border: solid;
@@ -434,6 +481,31 @@ a:hover{
     font-size: 15px;
     transition: all 0.3s ease 0s;
     cursor: pointer;
+}
+
+.footercontainer{
+    text-align: right;
+    gap: 10px;
+    width: 100%;
+    height: 180px;
+    margin-bottom: 10px;
+    margin-right: 1rem;
+
+}
+
+.footercontent{
+    text-align: right;
+    align-items: right;
+    margin-top: 20px;
+    margin-bottom: 260px;
+    font-size: 15px;
+    line-height: 20px;
+    color: #555555;
+}
+
+.coffeeiconfooter{
+    
+    padding-right: 0px;
 }
 
 /*.scrollTop:hover{
