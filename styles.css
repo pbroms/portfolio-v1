@@ -35,6 +35,7 @@ a:hover{
     height: 160px;
     border-bottom: 1px solid #707070;
     justify-content: space-around;
+    align-items: center;
 }
 
 .header-title{
@@ -42,6 +43,7 @@ a:hover{
     padding-left: 0px;
     align-items: center;
     justify-content: center;
+    text-align: center;
     display: flex;
     /*border: 1px solid #707070;*/
     flex-grow: 0;
@@ -54,12 +56,16 @@ a:hover{
     color: #555555;
     font-weight: 200;
     padding-left: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 
 .navlist{
     display: flex;
     width: auto;
     max-width: 600px;
+    height: 150px;
     /*flex-grow: 0;
     flex-shrink: 3;*/
     justify-content: space-evenly;
@@ -563,14 +569,16 @@ a:hover{
 @media (max-width:900px){
 
     .headercontainer{
-        height: 120px;
+        height: 90px;
         justify-content: center;
+        align-items: center;
     }
     .header-title{
         width: 100%;
+        height: 90px;
     }
     .title {
-        font-size: 40px;
+        font-size: 35px;
     }
     .navlist {
         width: 100%;
@@ -678,7 +686,7 @@ a:hover{
         margin-top: 160px;
     }
     .header-text{
-        font-size: 18px;
+        font-size: 17px;
     }
 }
 
