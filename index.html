@@ -4,16 +4,16 @@
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
         <title>Piet Broms</title>
         <!--general-->
         <meta property="og:url" content="https://pietbroms.com">
         <meta property="og:type" content="website">
         <meta property="og:title" content="Piet Broms">
-        <meta name="Description" content="I'm an aspiring film composer currently studying at California Institute of the Arts">
-        <meta property="og:description" content="I'm an aspiring film composer currently studying at California Institute of the Arts">
+        <meta name="Description" content="I’m an aspiring film composer recently graduated with a degree in Composition and Experimental Sound Practices from the California Institute of the Arts.">
+        <meta property="og:description" content="I’m an aspiring film composer recently graduated with a degree in Composition and Experimental Sound Practices from the California Institute of the Arts.">
         <meta property="og:image" content="https://pietbroms.com/images/favicon.svg">
-        <link rel="icon" href="images/favicon.svg">
+        <link rel="icon" href="images/favicon-v2.svg">
         <link rel="stylesheet" href="styles.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -38,14 +38,13 @@
     <div class="homepage">
         <div class="headercontainer">
 
-            <label  id="dark-change"></label>
+            <!--<label  id="dark-change"></label>-->
 
             <div class="header-title">
                 <h3 class="title">piet broms</h3>
             </div>
-    
-            <nav class="navlist">
-                
+
+            <div class="navlist">
                 <div class="music-container">
                     <a href="#music"><img class="tapemachine-icon" src="images/tapemachine-icon.svg" alt="tapemachine icon" href="#music"><br><br>
                     /music</a>
@@ -60,15 +59,14 @@
                     <a href="#photography" class="photography-headertext"><img class="camera-icon" src="images/camera-icon.svg" alt="camera icon" href="#photography"><br><br>
                     /photography</a>  
                 </div>
-
-            </nav>
+            </div>
 
             <div class="nav-container">
                 <button id="modal-btn" class="nav-button">click me!</button>
                 <div class="modal" id="my-modal">
                     <div class="modal-header">
                         <div class="modal-title">toggle dark mode</div>
-                        <button class="darkmode-toggle">toggle</button>
+                        <button class="darkmode-toggle"><s>toggle</s></button>
                         <div class="modal-title2">close</div>
                         <button class="close close-button">&times;</button>
                     </div>
@@ -80,7 +78,7 @@
                     </div>
                 </div>
                 
-
+                    
                 <a href="mailto:pietbroms@alum.calarts.edu" rel="nofollow">email</a>
                 <a href="https://www.instagram.com/piet.broms/" target="_blank" rel="noopener noreferrer">instagram</a>
                 <img src="images/coffeemug-icon.svg" class="coffeeicon">
@@ -89,57 +87,131 @@
     
         </div>
 
+        
         <div class="home-text-container">
             <p class="header-text">
                 Hello, I’m Piet!<br>
 
-                <br>I’m an aspiring film composer currently 
-                pursuing a degree in Composition and
-                Experimental Sound Practices at
-                California Institute of the Arts.
+                <br>
+
+                I’m an aspiring film composer recently graduated with a degree in Composition and Experimental Sound Practices from the California Institute of the Arts.<br>
+                
+                <br>My training and background draws me toward mood, setting, and light, bridging the worlds of sound and image.<br>
+                
+                <br>I'm currently seeking a position that will allow me to explore these ideas in film and television.<br>
+
             </p>
+            
+        </div>
+    </div>
+    
+    <div class="about-me">
+        <div class="grid-container">
+
+            <div class="grid-col col-span-three"></div>
+            <div class="grid-col col-span-three">
+        
+                <img class="about-me-image" src="images/content/pbweb30-min.jpg" alt="" >
+                
+            </div>    
+            <div class="about-me-text-container grid-col col-span-six">
+                <p class="about-me-text2">
+                    About me
+                    <br><br>
+                    I’m originally from Los Angeles, but was raised in Marin County, California. I come from a family of architects, designers, engineers, writers and educators, who have inspired in me the value of design and curiosity. I’m interested in all aspects of design composition: design of a photographic image, design of physical objects, design of a piece of music or score.
+                    <br><br>
+                    I enjoy delving deeply into an idea or concept in order to implement my design. I've learned the value of developing and exploring a big idea by focusing on the smaller details, researching and fully immersing myself in a project to realize my concept.
+                    <br><br>
+                    During high school I hand-built the acoustic guitar pictured left - I didn’t have a large amount of skill in woodworking so I researched the process and techniques luthiers use in their craft and implemented my research into the project.
+                    <br><br>
+                    The website you are viewing is also a hand-built effort that started with research and then the application of the information I gleaned into a design project. I had no experience with web design or coding prior to determining to design and implement my site. Please excuse any imperfections! It's an ongoing project.
+                </p>
+            </div>   
+
         </div>
     </div>
 
-    <div onclick="scrollToTop()" class="scrollTop reveal">top</div>
-    
-    <div class="side-menu reveal">
-        <a href="#music"><img class="tapemachine-icon" src="images/tapemachine-icon.svg" alt="tapemachine-icon" href="#music" width="100%" height="100%"></a>
-        <a href="#film-scoring-exercises"><img class="camera-icon" src="images/filmscoringexercises-icon.svg" alt="film scoring exercises-icon" href="#film-scoring-exercises" width="100%" height="100%"></a>
-        <a href="#photography"><img class="camera-icon" src="images/camera-icon.svg" alt="camera icon" href="#photography" width="100%" height="100%"></a>
-    </div>
 
 
-    <div id="overlay"></div>
+
+        <div onclick="scrollToTop()" class="scrollTop reveal">top</div>
+                
+        <div class="side-menu reveal">
+            <a href="#music"><img class="tapemachine-icon" src="images/tapemachine-icon.svg" alt="tapemachine-icon" href="#music" width="100%" height="100%"></a>
+            <a href="#film-scoring-exercises"><img class="camera-icon" src="images/filmscoringexercises-icon.svg" alt="film scoring exercises-icon" href="#film-scoring-exercises" width="100%" height="100%"></a>
+            <a href="#photography"><img class="camera-icon" src="images/camera-icon.svg" alt="camera icon" href="#photography" width="100%" height="100%"></a>
+        </div>
+        
+
+    <!--<div id="overlay"></div>-->
 
 
 <!----------------------------------------------SECTION 2------------------------------------------------->
     <section id="music">
-        <p class="sticky-section-title">/music</p>
+
+
+        
+        <p class="sticky-section-title">/music
+
+            <br><br>Of music compositions I’ve studied, my favorites evoke emotion, inspire, motivate, uplift, and help tell a story. CalArts taught me the critical role music plays in motion picture production, including the worlds of film, television, and gaming. On this site I’ve included examples of my composition focusing on cinematic electronic and orchestral concepts, and ideas in experimental sound. 
+
+
+        </p>
 
         <div class="player-container">
+            
             <div class="grid-container">
-                <!--break-->
+
                 <div class="grid-col col-span-three"></div>
                 <div class="musicdescriptor grid-col col-span-three">
-                    <p class="musictext">Synth Experience</p>
+                    <p class="musictext">Synth Experience<span class="musicarrow">&#10142;</span><span class="musicarrow2">&#8598;</span></p>
                 </div>
                 <div class="musicplayer-container grid-col col-span-six">
                     <div>
-                        <audio class="player" controls="" data-title="Piet Grad Music">
+                        <audio controls controlslist="nodownload" class="player" data-title="Piet Grad Music">
                         <source src="audio/synth experience.mp3" type="audio/mp3">
                         </audio> 
                     </div>
              
                 </div>
+
+                <!--break-->
+                <!--<div class="grid-col col-span-three"></div>
+                <div class="musicdescriptor grid-col col-span-three">
+                    <p class="musictext">Synth Experience</p>
+                </div>
+                <div class="musicplayer-container grid-col col-span-six">
+                    <div class="musicplayer-text">
+                        <p>vol.</p>
+                        <p>play.</p>
+                        <p>stop.</p>
+                    </div>
+                    <div class="musicplayer">
+
+                        <audio class="player" data-title="Piet Grad Music">
+                        <source src="audio/synth experience.mp3" type="audio/mp3">
+                        </audio> 
+                        <div class="volumeslider-container">
+                            <input class="volumeslider" type="range" min="0" max="100" step="0.1" orient="vertical">
+                        </div>
+                        <div class="playbutton-container">
+                            <button class="play-button"> <img src="images/play-button.svg"> </button>
+                        </div>
+                        <div class="stopbutton-container">
+                            <button class="stop-button"> <img src="images/stop-button.svg"> </button>
+                        </div>
+                    </div>
+             
+                </div>-->
+
                 <!--break-->
                 <div class="grid-col col-span-three"></div>
                 <div class="musicdescriptor grid-col col-span-three">
-                    <p class="musictext">Synth Experience 2</p>
+                    <p class="musictext">Synth Experience 2 <span class="musicarrow">&#10142;</span><span class="musicarrow2">&#8598;</span></p>
                 </div>
                 <div class="musicplayer-container grid-col col-span-six">
                     <div>
-                        <audio controls class="player" data-title="Piet Grad Music">
+                        <audio controls controlslist="nodownload" class="player" data-title="Piet Grad Music">
                         <source src="audio/synth experience 2.mp3" type="audio/mp3">
                         </audio> 
                     </div>
@@ -148,11 +220,11 @@
                 <!--break-->
                 <div class="grid-col col-span-three"></div>
                 <div class="musicdescriptor grid-col col-span-three">
-                    <p class="musictext">10.20.23 Shortened</p>
+                    <p class="musictext">10.20.23 Shortened <span class="musicarrow">&#10142;</span><span class="musicarrow2">&#8598;</span></p>
                 </div>
                 <div class="musicplayer-container grid-col col-span-six">
                     <div>
-                        <audio controls class="player" data-title="Piet Grad Music">
+                        <audio controls controlslist="nodownload" class="player" data-title="Piet Grad Music">
                         <source src="audio/10.20.23 Shortened.mp3" type="audio/mp3">
                         </audio> 
                     </div>
@@ -161,11 +233,11 @@
                 <!--break-->
                 <div class="grid-col col-span-three"></div>
                 <div class="musicdescriptor grid-col col-span-three">
-                    <p class="musictext">History of Synthesis Final</p>
+                    <p class="musictext">History of Synthesis Final <span class="musicarrow">&#10142;</span><span class="musicarrow2">&#8598;</span></p>
                 </div>
                 <div class="musicplayer-container grid-col col-span-six">
                     <div>
-                        <audio controls class="player" data-title="Piet Grad Music">
+                        <audio controls controlslist="nodownload" class="player" data-title="Piet Grad Music">
                         <source src="audio/history of synthesis final.wav" type="audio/wav">
                         </audio> 
                     </div>
@@ -174,11 +246,11 @@
                 <!--break-->
                 <div class="grid-col col-span-three"></div>
                 <div class="musicdescriptor grid-col col-span-three">
-                    <p class="musictext">Disk Select<br><br>(Experimental Audio Piece)</p>
+                    <p class="musictext">Disk Select <span class="musicarrow">&#10142;</span><span class="musicarrow2">&#8598;</span><br><br>(Experimental Audio Piece)<br><br>All music written by me</p>
                 </div>
                 <div class="musicplayer-container grid-col col-span-six">
                     <div>
-                        <audio controls class="player" data-title="Piet Grad Music">
+                        <audio controls controlslist="nodownload" class="player" data-title="Piet Grad Music">
                         <source src="audio/Piet Broms_Disk Select.mp3" type="audio/mp3">
                         </audio> 
                     </div>
@@ -187,11 +259,11 @@
                 <!--break-->
                 <div class="grid-col col-span-three"></div>
                 <div class="musicdescriptor grid-col col-span-three">
-                    <p class="musictext">Aesthetics of Sound and Image 3<br><br>(Experimental Audio Piece)</p>
+                    <p class="musictext">Aesthetics of Sound and Image 3 <span class="musicarrow">&#10142;</span><span class="musicarrow2">&#8598;</span><br><br>(Experimental Audio Piece)</p>
                 </div>
                 <div class="musicplayer-container grid-col col-span-six">
                     <div>
-                        <audio controls class="player" data-title="Piet Grad Music">
+                        <audio controls controlslist="nodownload" class="player" data-title="Piet Grad Music">
                         <source src="audio/Piet Broms AS&I assignment 3.mp3" type="audio/mp3">
                         </audio> 
                     </div>
@@ -200,11 +272,11 @@
                 <!--break-->
                 <div class="grid-col col-span-three"></div>
                 <div class="musicdescriptor grid-col col-span-three">
-                    <p class="musictext">3.1.22.mp3</p>
+                    <p class="musictext">3.1.22.mp3 <span class="musicarrow">&#10142;</span><span class="musicarrow2">&#8598;</span></p>
                 </div>
                 <div class="musicplayer-container grid-col col-span-six">
                     <div>
-                        <audio controls class="player" data-title="Piet Grad Music">
+                        <audio controls controlslist="nodownload" class="player" data-title="Piet Grad Music">
                         <source src="audio/3.1.22.mp3" type="audio/mp3">
                         </audio> 
                     </div>
@@ -213,11 +285,11 @@
                 <!--break-->
                 <div class="grid-col col-span-three"></div>
                 <div class="musicdescriptor grid-col col-span-three">
-                    <p class="musictext">4.5.22.mp3</p>
+                    <p class="musictext">4.5.22.mp3 <span class="musicarrow">&#10142;</span><span class="musicarrow2">&#8598;</span></p>
                 </div>
                 <div class="musicplayer-container grid-col col-span-six">
                     <div>
-                        <audio controls class="player" data-title="Piet Grad Music">
+                        <audio controls controlslist="nodownload" class="player" data-title="Piet Grad Music">
                         <source src="audio/4.5.22.mp3" type="audio/mp3">
                         </audio> 
                     </div>
@@ -226,11 +298,11 @@
                 <!--break-->
                 <div class="grid-col col-span-three"></div>
                 <div class="musicdescriptor grid-col col-span-three">
-                    <p class="musictext">Mix 1 Final (2024)</p>
+                    <p class="musictext">Mix 1 Final (2024) <span class="musicarrow">&#10142;</span><span class="musicarrow2">&#8598;</span></p>
                 </div>
                 <div class="musicplayer-container grid-col col-span-six">
                     <div>
-                        <audio controls class="player" data-title="Piet Grad Music">
+                        <audio controls controlslist="nodownload" class="player" data-title="Piet Grad Music">
                         <source src="audio/Piet - Mix 1 FINAL.mp3" type="audio/mp3">
                         </audio> 
                     </div>
@@ -239,11 +311,11 @@
                 <!--break-->
                 <div class="grid-col col-span-three"></div>
                 <div class="musicdescriptor grid-col col-span-three">
-                    <p class="musictext">Mix 2 Final (2024)</p>
+                    <p class="musictext">Mix 2 Final (2024) <span class="musicarrow">&#10142;</span><span class="musicarrow2">&#8598;</span></p>
                 </div>
                 <div class="musicplayer-container grid-col col-span-six">
                     <div>
-                        <audio controls class="player" data-title="Piet Grad Music">
+                        <audio controls controlslist="nodownload" class="player" data-title="Piet Grad Music">
                         <source src="audio/Piet - Mix 2 FINAL.mp3" type="audio/mp3">
                         </audio> 
                     </div>
@@ -252,13 +324,13 @@
                 <!--break-->
                 <div class="grid-col col-span-three"></div>
                 <div class="musicdescriptor grid-col col-span-three">
-                    <p class="musictext">Woodwind Quartet - "Spring Rain"<br><br>Quartet for Flute, Clarinet, Oboe, and Bassoon.</p>
+                    <p class="musictext">Woodwind Quartet - "Spring Rain" <span class="musicarrow">&#10142;</span><span class="musicarrow2">&#8598;</span><br><br>Quartet for Flute, Clarinet, Oboe, and Bassoon.</p>
                     <br>
                     Please view the written score <a href="https://drive.google.com/file/d/1z3wtQdmiINK9ZCdIopbxJLhM_w2MNOHz/view?usp=sharing" target="_blank" rel="noopener noreferrer" style="color: #2d64ac;">here</a>
                 </div>
                 <div class="musicplayer-container grid-col col-span-six">
                     <div>
-                        <audio controls class="player" data-title="Piet Grad Music">
+                        <audio controls controlslist="nodownload" class="player" data-title="Piet Grad Music">
                         <source src="audio/PIET_Quartet.wav" type="audio/wav">
                         </audio> 
                     </div>
@@ -267,13 +339,13 @@
                 <!--break-->
                 <div class="grid-col col-span-three"></div>
                 <div class="musicdescriptor grid-col col-span-three">
-                    <p class="musictext">Series: Woodwind Solos - "Output"<br><br>Solo for Clarinet</p>
+                    <p class="musictext">Series: Woodwind Solos - "Output" <span class="musicarrow">&#10142;</span><span class="musicarrow2">&#8598;</span><br><br>Solo for Clarinet</p>
                     <br>
                     Please view the written score <a href="https://drive.google.com/file/d/1QI78b8De46F987Tnz-YmOU5rfhLsKqSd/view?usp=sharing" target="_blank" rel="noopener noreferrer" style="color: #2d64ac;">here</a>
                 </div>
                 <div class="musicplayer-container grid-col col-span-six">
                     <div>
-                        <audio controls class="player" data-title="Piet Grad Music">
+                        <audio controls controlslist="nodownload" class="player" data-title="Piet Grad Music">
                         <source src="audio/1. Piet Broms clarinet.wav" type="audio/wav">
                         </audio> 
                     </div>
@@ -282,13 +354,13 @@
                 <!--break-->
                 <div class="grid-col col-span-three"></div>
                 <div class="musicdescriptor grid-col col-span-three">
-                    <p class="musictext">Series: Woodwind Solos - "Flutering"<br><br>Solo for Flute</p>
+                    <p class="musictext">Series: Woodwind Solos - "Flutering" <span class="musicarrow">&#10142;</span><span class="musicarrow2">&#8598;</span><br><br>Solo for Flute</p>
                     <br>
                     Please view the written score <a href="https://drive.google.com/file/d/1L6838alWjawEDUgRiOFvvtmbPExbeP3B/view?usp=sharing" target="_blank" rel="noopener noreferrer" style="color: #2d64ac;">here</a>
                 </div>
                 <div class="musicplayer-container grid-col col-span-six">
                     <div>
-                        <audio controls class="player" data-title="Piet Grad Music">
+                        <audio controls controlslist="nodownload" class="player" data-title="Piet Grad Music">
                         <source src="audio/2. PIETfluteSOLO2.mp3" type="audio/mp3">
                         </audio> 
                     </div>
@@ -297,13 +369,13 @@
                 <!--break-->
                 <div class="grid-col col-span-three"></div>
                 <div class="musicdescriptor grid-col col-span-three">
-                    <p class="musictext">Series: Woodwind Solos - "Sprout"<br><br>Solo for Shakuhachi</p>
+                    <p class="musictext">Series: Woodwind Solos - "Sprout" <span class="musicarrow">&#10142;</span><span class="musicarrow2">&#8598;</span><br><br>Solo for Shakuhachi</p>
                     <br>
                     Please view the written score <a href="https://drive.google.com/file/d/1S2AOsXpEM2G61SrqT7XBjoZltM5FSB3S/view?usp=sharing" target="_blank" rel="noopener noreferrer" style="color: #2d64ac;">here</a>
                 </div>
                 <div class="musicplayer-container grid-col col-span-six">
                     <div>
-                        <audio controls class="player" data-title="Piet Grad Music">
+                        <audio controls controlslist="nodownload" class="player" data-title="Piet Grad Music">
                         <source src="audio/3. PIETshaku.mp3" type="audio/mp3">
                         </audio> 
                     </div>
@@ -312,13 +384,13 @@
                 <!--break-->
                 <div class="grid-col col-span-three"></div>
                 <div class="musicdescriptor grid-col col-span-three">
-                    <p class="musictext">Series: Woodwind Solos - "Bassooning"<br><br>Solo for Bassoon</p>
+                    <p class="musictext">Series: Woodwind Solos - "Bassooning" <span class="musicarrow">&#10142;</span><span class="musicarrow2">&#8598;</span><br><br>Solo for Bassoon</p>
                     <br>
                     Please view the written score <a href="https://drive.google.com/file/d/1N55tAleJoOePg9tyOUCLXV1StJm9LbcY/view?usp=sharing" target="_blank" rel="noopener noreferrer" style="color: #2d64ac;">here</a>
                 </div>
                 <div class="musicplayer-container grid-col col-span-six">
                     <div>
-                        <audio controls class="player" data-title="Piet Grad Music">
+                        <audio controls controlslist="nodownload" class="player" data-title="Piet Grad Music">
                         <source src="audio/4. Piet Bassooning.wav" type="audio/wav">
                         </audio> 
                     </div>
@@ -327,13 +399,13 @@
                 <!--break-->
                 <div class="grid-col col-span-three"></div>
                 <div class="musicdescriptor grid-col col-span-three">
-                    <p class="musictext">Series: Woodwind Solos - "Leaves"<br><br>Solo for Oboe</p>
+                    <p class="musictext">Series: Woodwind Solos - "Leaves" <span class="musicarrow">&#10142;</span><span class="musicarrow2">&#8598;</span><br><br>Solo for Oboe</p>
                     <br>
                     Please view the written score <a href="https://drive.google.com/file/d/1HNJNn8a2AHkSR5i-cm2Rgy1lxJulCxzE/view?usp=sharing" target="_blank" rel="noopener noreferrer" style="color: #2d64ac;">here</a>
                 </div>
                 <div class="musicplayer-container grid-col col-span-six">
                     <div>
-                        <audio controls class="player" data-title="Piet Grad Music">
+                        <audio controls controlslist="nodownload" class="player" data-title="Piet Grad Music">
                         <source src="audio/5. piet oboe broms_leaves.wav" type="audio/wav">
                         </audio> 
                     </div>
@@ -342,13 +414,13 @@
                 <!--break-->
                 <div class="grid-col col-span-three"></div>
                 <div class="musicdescriptor grid-col col-span-three">
-                    <p class="musictext">Series: Woodwind Solos - "Tumble"<br><br>Solo for Saxophone</p>
+                    <p class="musictext">Series: Woodwind Solos - "Tumble" <span class="musicarrow">&#10142;</span><span class="musicarrow2">&#8598;</span><br><br>Solo for Saxophone</p>
                     <br>
                     Please view the written score <a href="https://drive.google.com/file/d/1lYxCmoaRZ178dCxkO9MmDm2gcksBUGZt/view?usp=sharing" target="_blank" rel="noopener noreferrer" style="color: #2d64ac;">here</a>
                 </div>
                 <div class="musicplayer-container grid-col col-span-six">
                     <div>
-                        <audio controls class="player" data-title="Piet Grad Music">
+                        <audio controls controlslist="nodownload" class="player" data-title="Piet Grad Music">
                         <source src="audio/6. Piet sax Tumble.wav" type="audio/wav">
                         </audio> 
                     </div>
@@ -357,7 +429,7 @@
                 <!--break-->
                 <div class="grid-col col-span-three"></div>
                 <div class="musicdescriptor grid-col col-span-three">
-                    <p class="musictext">Pebbles (Experimental Music Piece)<br><br>Solo Piano</p>
+                    <p class="musictext">Pebbles (Experimental Music Piece) <span class="musicarrow">&#10142;</span><span class="musicarrow2">&#8598;</span><br><br>Solo Piano</p>
                     <br>
                     Written/Drawn Score
                     <br>
@@ -365,7 +437,7 @@
                 </div>
                 <div class="musicplayer-container grid-col col-span-six">
                     <div>
-                        <audio controls class="player" data-title="Piet Grad Music">
+                        <audio controls controlslist="nodownload" class="player" data-title="Piet Grad Music">
                         <source src="audio/comp II piano performance.mp3" type="audio/mp3">
                         </audio> 
                     </div>
@@ -378,7 +450,13 @@
 
 <!----------------------------------------------SECTION 3------------------------------------------------->
     <section id="film-scoring-exercises">
-        <p class="sticky-section-title">/film scoring exercises</p>
+        <p class="sticky-section-title">/film scoring exercises
+
+            <br><br>I’m interested in the impact music provides to the audience’s experience and music’s unique characteristics that contribute to finished content. I’ve included examples from my work at CalArts focusing on scoring ideas that explore characteristics of, among other things, setting, movement, emotion, and impact.
+
+
+
+        </p>
         <div class="grid-container">
             <!--break-->
             <div class="grid-col col-span-three"></div>
@@ -388,7 +466,7 @@
                 The sound in this scene has been completely rerecorded by me as well as my friend Weston Winkler, down to the voice acting and each sound effect. You may notice there are a few sound effects and a voice line missing, as this is still a project that is very much in progress.   
             </div>
             <div class="videoplayer-container grid-col col-span-six">
-                <iframe width="715px" height="100%" src="https://www.youtube.com/embed/PkVCt1jNtlU?si=uhhglN4QKtKasQio" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/PkVCt1jNtlU?si=uhhglN4QKtKasQio" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             
             </div>
             <!--break-->
@@ -397,16 +475,7 @@
                 <p class="videotext">An original rescore of a trailer for the videogame Hitman 2.</p>     
             </div>
             <div class="videoplayer-container grid-col col-span-six">
-                <iframe width="715px" height="100%" src="https://www.youtube.com/embed/3vxN9YbjbCk?si=xd1cRNWJ2IYfuzRE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            
-            </div>
-            <!--break-->
-            <div class="grid-col col-span-three"></div>
-            <div class="videodescriptor grid-col col-span-three">
-                <p class="videotext">An original rescore of a scene from the film Frida (2002).</p>
-            </div>
-            <div class="videoplayer-container grid-col col-span-six">
-                <iframe width="715px" height="100%" src="https://www.youtube.com/embed/0lMjx7_AvFg?si=QffTVzWcV3w_uJ9V" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/3vxN9YbjbCk?si=xd1cRNWJ2IYfuzRE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             
             </div>
             <!--break-->
@@ -415,7 +484,16 @@
                 <p class="videotext">A project for a class called Aesthetics of Sound and Image. The aim was to select a single image and create three different sound spaces to accompany it, each being different in tone while remaining effective with the visual.<br><br>Original music by me<br><br>Image: Blade Runner 2049</p>
             </div>
             <div class="videoplayer-container grid-col col-span-six">
-                <iframe width="715px" height="100%" src="https://www.youtube.com/embed/aOfkdadEYT0?si=aWtWTpVD9YW1zL1r" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/aOfkdadEYT0?si=aWtWTpVD9YW1zL1r" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            
+            </div>
+            <!--break-->
+            <div class="grid-col col-span-three"></div>
+            <div class="videodescriptor grid-col col-span-three">
+                <p class="videotext">An original rescore of a scene from the film Frida (2002).</p>
+            </div>
+            <div class="videoplayer-container grid-col col-span-six">
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/0lMjx7_AvFg?si=QffTVzWcV3w_uJ9V" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             
             </div>
             <!--break-->
@@ -424,7 +502,7 @@
                 <p class="videotext">A solo audio and visual project for a class called Aesthetics of Sound and Image, incorporating original music pieces with scenes local to CalArts.</p>
             </div>
             <div class="videoplayer-container grid-col col-span-six">
-                <iframe width="715px" height="100%" src="https://www.youtube.com/embed/9G3VOyFGhio?si=qojUcGZCL6rPVh99" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/9G3VOyFGhio?si=qojUcGZCL6rPVh99" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             
             </div>
 
@@ -436,16 +514,44 @@
 
 <!----------------------------------------------SECTION 4------------------------------------------------->
     <section id="photography">
-        <p class="sticky-section-title">/photography</p>
+        <p class="sticky-section-title">/photography
+            
+            <br><br>I enjoy using my camera to compose and carry it with me to capture everyday moments that I find visually interesting in light and color, or tell a story. I look for balance (or a lack thereof), compelling shapes and patterns, and mood. Though I often photograph landscapes, I’m also drawn toward portraiture as well, including wedding photography, some of which can be viewed here.
+
+        </p>
 
         <div class="grid-container">
             <!--break-->
             <div class="grid-col col-span-three"></div>
+            <div class="grid-col col-span-nine">
+                <img src="images/content/pbweb25-min.jpg" alt="" width="100%" height="100%">
+            </div>
+            <!--break-->
+            <div class="grid-col col-span-three"></div>
+            <div class="grid-col col-span-three">
+                <img src="images/content/pbweb31-min.jpg" alt="" width="100%" height="100%">
+            </div>
             <div class="grid-col col-span-six">
-                <img src="images/content/pbweb9-min.jpg" alt="" width="100%" height="100%">
+                <img class="spansixphoto" src="images/content/pbweb37-min.jpg" alt="" width="100%" height="100%">
+            </div>
+            <!--break-->
+            <div class="grid-col col-span-three"></div>
+            <div class="grid-col col-span-six">
+                <img class="spansixphoto" src="images/content/pbweb9-min.jpg" alt="" width="100%" height="100%">
             </div>
             <div class="grid-col col-span-three">
                 <img src="images/content/pbweb6-min.jpg" alt="" width="100%" height="100%">
+            </div>
+            <!--break-->
+            <div class="grid-col col-span-three"></div>
+            <div class="grid-col col-span-three">
+                <img src="images/content/pbweb21-min.jpg" alt="" width="100%" height="100%">
+            </div>
+            <div class="grid-col col-span-three">
+                <img src="images/content/pbweb26-min.jpg" alt="" width="100%" height="100%">
+            </div>
+            <div class="grid-col col-span-three">
+                <img src="images/content/pbweb27-min.jpg" alt="" width="100%" height="100%">
             </div>
             <!--break-->
             <div class="grid-col col-span-three"></div>
@@ -455,19 +561,23 @@
             <!--break-->
             <div class="grid-col col-span-three"></div>
             <div class="grid-col col-span-three">
-                <img src="images/content/pbweb5-min.jpg" alt="" width="100%" height="100%">
+                <img src="images/content/pbweb20-min.jpg" alt="" width="100%" height="100%">
             </div>
             <div class="grid-col col-span-six">
-                <img src="images/content/pbweb4-min.jpg" alt="" width="100%" height="100%">
+                <img class="spansixphoto" src="images/content/pbweb4-min.jpg" alt="" width="100%" height="100%">
             </div>
             <!--break-->
             <div class="grid-col col-span-three"></div>
             <div class="grid-col col-span-six">
-                <img src="images/content/pbweb8-min.jpg" alt="" width="100%" height="100%">
+                <img class="spansixphoto" src="images/content/pbweb8-min.jpg" alt="" width="100%" height="100%">
             </div>
             <div class="grid-col col-span-three">
-                <img src="images/content/pbweb1-min.jpg" alt="" width="100%" height="50%">
-                <img src="images/content/pbweb2-min.jpg" alt="" width="100%" height="50%">
+                <img src="images/content/pbweb24-min.jpg" alt="" width="100%" height="100%">
+            </div>
+            <!--break-->
+            <div class="grid-col col-span-three"></div>
+            <div class="grid-col col-span-nine">
+                <img src="images/content/pbweb22-min.jpg" alt="" width="100%" height="100%">
             </div>
             <!--break-->
             <div class="grid-col col-span-three"></div>
@@ -475,7 +585,7 @@
                 <img src="images/content/pbweb11-min.jpg" alt="" width="100%" height="100%">
             </div>
             <div class="grid-col col-span-six">
-                <img src="images/content/pbweb12-min.jpg" alt="" width="100%" height="100%">
+                <img class="spansixphoto" src="images/content/pbweb12-min.jpg" alt="" width="100%" height="100%">
             </div>
             <!--break-->
             <div class="grid-col col-span-three"></div>
@@ -491,20 +601,39 @@
                 <img src="images/content/pbweb15-min.jpg" alt="" width="100%" height="100%">
             </div>
             <div class="grid-col col-span-three">
-                <img src="images/content/pbweb16-min.jpg" alt="" width="100%" height="100%">
+                <img src="images/content/pbweb23-min.jpg" alt="" width="100%" height="100%">
             </div>
             <!--break-->
             <div class="grid-col col-span-three"></div>
-            <div class="grid-col col-span-nine">
-                <img src="images/content/pbweb17-min.jpg" alt="" width="100%" height="100%">
+            <div class="grid-col col-span-three">
+                <img src="images/content/pbweb29-min.jpg" alt="" width="100%" height="100%">
+            </div>
+            <div class="grid-col col-span-six">
+                <img class="spansixphoto" src="images/content/pbweb28-min.jpg" alt="" width="100%" height="100%">
             </div>
             <!--break-->
             <div class="grid-col col-span-three"></div>
             <div class="grid-col col-span-six">
-                <img src="images/content/pbweb18-min.jpg" alt="" width="100%" height="100%">
+                <img class="spansixphoto" src="images/content/pbweb18-min.jpg" alt="" width="100%" height="100%">
             </div>
             <div class="grid-col col-span-three">
                 <img src="images/content/pbweb19-min.jpg" alt="" width="100%" height="100%">
+            </div>
+            <!--break-->
+            <div class="grid-col col-span-three"></div>
+            <div class="grid-col col-span-three">
+                <img src="images/content/pbweb35-min.jpg" alt="" width="100%" height="100%">
+            </div>
+            <div class="grid-col col-span-six">
+                <img class="spansixphoto" src="images/content/pbweb33-min.jpg" alt="" width="100%" height="100%">
+            </div>
+            <!--break-->
+            <div class="grid-col col-span-three"></div>
+            <div class="grid-col col-span-six">
+                <img class="spansixphoto" src="images/content/pbweb34-min.jpg" alt="" width="100%" height="100%">
+            </div>
+            <div class="grid-col col-span-three">
+                <img src="images/content/pbweb36-min.jpg" alt="" width="100%" height="100%">
             </div>
         </div>
 
@@ -512,10 +641,10 @@
 
     <div class="footercontainer">
         <div class="footercontent">
-            <p class="footer-text">Website Created By Piet Broms<br>May 2024<br><br>
-                <a href="mailto:pietbroms@alum.calarts.edu" rel="nofollow">email</a>
+            <p class="footer-text" style="color: #EEEEEE;">Website Created By Piet Broms<br>May 2024<br><br>
+                <a href="mailto:pietbroms@alum.calarts.edu" rel="nofollow" style="color: #EEEEEE;">email</a>
                 <br>
-                <a href="https://www.instagram.com/piet.broms/" target="_blank" rel="noopener noreferrer">instagram</a>
+                <a href="https://www.instagram.com/piet.broms/" target="_blank" rel="noopener noreferrer" style="color: #EEEEEE;">instagram</a>
                 <br>
                 <br>
                 <img src="images/coffeemug-icon.svg" class="coffeeiconfooter">
