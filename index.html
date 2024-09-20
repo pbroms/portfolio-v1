@@ -22,14 +22,9 @@
         <script
 			  src="https://code.jquery.com/jquery-3.7.1.js"
 			  integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
-			  crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="tiny-html-audio-player-master/src/css/tinyPlayer.css">
-        <script src="tiny-html-audio-player-master/src/js/tinyPlayer.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.4/howler.min.js"></script>
+			  crossorigin="anonymous">
+        </script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"></script>
-        <!--for video-->
-        <link href="https://vjs.zencdn.net/8.10.0/video-js.css" rel="stylesheet" />
-        <script src="https://vjs.zencdn.net/8.10.0/video.min.js"></script>
     </head>
    
 <body>
@@ -79,9 +74,10 @@
                 </div>
                 
                     
-                <a href="mailto:pietbroms@alum.calarts.edu" rel="nofollow">email</a>
-                <a href="https://www.instagram.com/piet.broms/" target="_blank" rel="noopener noreferrer">instagram</a>
-                <img src="images/coffeemug-icon.svg" class="coffeeicon">
+                <a href="mailto:pietbroms@alum.calarts.edu" rel="nofollow" title="Email"><img class="mail-icon" src="images/mail-icon.svg" alt="mail-icon" width="100%" height="100%" fill="#EEEEEE"></a>
+                <a href="https://www.linkedin.com/in/piet-broms/" target="_blank" rel="noopener noreferrer" title="LinkedIn"><img class="linkedin-icon" src="images/linkedin-icon.svg" alt="linkedin-icon" width="100%" height="100%" fill="#EEEEEE"></a>
+                <a href="https://www.instagram.com/piet.broms/" target="_blank" rel="noopener noreferrer" title="Instagram"><img class="insta-icon" src="images/insta-icon.svg" alt="insta-icon" width="100%" height="100%" fill="#EEEEEE"></a>
+                <a href="#aboutme"><img src="images/coffeemug-icon.svg" class="coffeeicon" title="About Me" href="#aboutme"></a>
             </div>
 
     
@@ -105,41 +101,42 @@
         </div>
     </div>
     
-    <div class="about-me">
-        <div class="grid-container">
+    <section id="aboutme">
+        <div class="about-me">
+            <div class="grid-container">
 
-            <div class="grid-col col-span-three"></div>
-            <div class="grid-col col-span-three">
-        
-                <img class="about-me-image" src="images/content/pbweb30-min.JPG" alt="">
-                
-            </div>    
-            <div class="about-me-text-container grid-col col-span-six">
-                <p class="about-me-text2">
-                    About me
-                    <br><br>
-                    I’m originally from Los Angeles, but was raised in Marin County, California. I come from a family of architects, designers, engineers, writers and educators, who have inspired in me the value of design and curiosity. I’m interested in all aspects of design composition: design of a photographic image, design of physical objects, design of a piece of music or score.
-                    <br><br>
-                    I enjoy delving deeply into an idea or concept in order to implement my design. I've learned the value of developing and exploring a big idea by focusing on the smaller details, researching and fully immersing myself in a project to realize my concept.
-                    <br><br>
-                    During high school I hand-built the acoustic guitar pictured left - I didn’t have a large amount of skill in woodworking so I researched the process and techniques luthiers use in their craft and implemented my research into the project.
-                    <br><br>
-                    The website you are viewing is also a hand-built effort that started with research and then the application of the information I gleaned into a design project. I had no experience with web design or coding prior to determining to design and implement my site. Please excuse any imperfections! It's an ongoing project.
-                </p>
-            </div>   
+                <div class="grid-col col-span-three"></div>
+                <div class="grid-col col-span-three">
+            
+                    <img class="about-me-image" src="images/content/pbweb30-min.JPG" alt="">
+                    
+                </div>    
+                <div class="about-me-text-container grid-col col-span-six">
+                    <p class="about-me-text2">
+                        About me
+                        <br><br>
+                        I’m originally from Los Angeles, but was raised in Marin County, California. I come from a family of architects, designers, engineers, writers and educators, who have inspired in me the value of design and curiosity. I’m interested in all aspects of design composition: design of a photographic image, design of physical objects, design of a piece of music or score.
+                        <br><br>
+                        I enjoy delving deeply into an idea or concept in order to implement my design. I've learned the value of developing and exploring a big idea by focusing on the smaller details, researching and fully immersing myself in a project to realize my concept.
+                        <br><br>
+                        During high school I hand-built the acoustic guitar pictured left - I didn’t have a large amount of skill in woodworking so I researched the process and techniques luthiers use in their craft and implemented my research into the project.
+                        <br><br>
+                        The website you are viewing is also a hand-built effort that started with research and then the application of the information I gleaned into a design project. I had no experience with web design or coding prior to determining to design and implement my site. Please excuse any imperfections! It's an ongoing project.
+                    </p>
+                </div>   
 
+            </div>
         </div>
-    </div>
-
+    </section>
 
 
 
         <div onclick="scrollToTop()" class="scrollTop reveal">top</div>
                 
         <div class="side-menu reveal">
-            <a href="#music"><img class="tapemachine-icon" src="images/tapemachine-icon.svg" alt="tapemachine-icon" href="#music" width="100%" height="100%"></a>
-            <a href="#film-scoring-exercises"><img class="camera-icon" src="images/filmscoringexercises-icon.svg" alt="film scoring exercises-icon" href="#film-scoring-exercises" width="100%" height="100%"></a>
-            <a href="#photography"><img class="camera-icon" src="images/camera-icon.svg" alt="camera icon" href="#photography" width="100%" height="100%"></a>
+            <a href="#music" title="Music" ><img class="tapemachine-icon" src="images/tapemachine-icon.svg" alt="tapemachine-icon" href="#music" width="100%" height="100%"></a>
+            <a href="#film-scoring-exercises" title="Film Scoring Exercises" ><img class="camera-icon" src="images/filmscoringexercises-icon.svg" alt="film scoring exercises-icon" href="#film-scoring-exercises" width="100%" height="100%"></a>
+            <a href="#photography" title="Photography" ><img class="camera-icon" src="images/camera-icon.svg" alt="camera icon" href="#photography" width="100%" height="100%"></a>
         </div>
         
 
@@ -446,6 +443,17 @@
             </div>
         </div>
 
+        <script>
+            document.addEventListener('play', function(e){  
+                var audios = document.getElementsByTagName('audio');  
+                for(var i = 0, len = audios.length; i < len;i++){  
+                    if(audios[i] != e.target){  
+                        audios[i].pause();  
+                    }  
+                }  
+            }, true);
+        </script>
+
     </section>
 
 <!----------------------------------------------SECTION 3------------------------------------------------->
@@ -642,13 +650,7 @@
     <div class="footercontainer">
         <div class="footercontent">
             <p class="footer-text" style="color: #EEEEEE;">Website Created By Piet Broms<br>May 2024<br><br>
-                <a href="mailto:pietbroms@alum.calarts.edu" rel="nofollow" style="color: #EEEEEE;">email</a>
-                <br>
-                <a href="https://www.instagram.com/piet.broms/" target="_blank" rel="noopener noreferrer" style="color: #EEEEEE;">instagram</a>
-                <br>
-                <br>
-                <img src="images/coffeemug-icon.svg" class="coffeeiconfooter">
-
+                <img src="images/coffeemug-icon-light.svg" class="coffeeiconfooter">
             </p>
         </div>
     </div>

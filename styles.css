@@ -142,11 +142,11 @@ a:hover{
 }
 
 .nav-button{
+    display: none;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
-    display: flex;
     padding: 0px 0px;
     background-color: #EEEEEE;
     color: #707070;
@@ -604,19 +604,24 @@ a:hover{
         display: none;
     }
     .nav-container{
-        position: absolute;
-        bottom: 10px;
-        right: 15px;
+        scale: 80%;
+        gap: 10px;
+        position: fixed;
+        bottom: 35px;
+        left: 0px;
         width: 120px;
         height: 100px;
         flex-direction: column;
-        align-items:end;
+        align-items:start;
         /*border: 1px dashed #707070;
         border-radius: 3px;*/
         /*-webkit-transform: rotate(90deg);*/
     }
+
+    
     .coffeeicon{
         padding: 0;
+        display: none;
     }
     .home-text-container{
         margin-top: 195px;
@@ -668,7 +673,7 @@ a:hover{
     .musicplayer-container{
         /*border: 1px dashed #707070;
         border-radius: 3px;*/
-        height: 100px;
+        height: 60px;
     }
     .musicarrow2{
         display: inline;
@@ -717,7 +722,7 @@ a:hover{
         position: relative;
         width: 100%;
         max-width: 300px;
-        padding-right: 10px;
+        padding-right: 0px;
         padding-left: 0px;
         font-size: 15px;
     }
@@ -812,7 +817,7 @@ a:hover{
     text-align: right;
     gap: 0px;
     width: 100%;
-    height: 185px;
+    height: 135px;
     margin-bottom: 0px;
     padding-right: 0px;
     margin-right: 0rem;
